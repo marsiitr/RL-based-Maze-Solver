@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 class preprocess:
-    # Preprocessing the input image maze to generate 2D matrix
+    # Preprocessing the input image maze to generate 2D matrix.
     # Use the following links to generate high-resolution mazes:
     # https://keesiemeijer.github.io/maze-generator/#generate
     # http://www.mazegenerator.net/      
