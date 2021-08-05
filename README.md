@@ -1,8 +1,10 @@
 # RL-based Maze Solver
 Open Projects 2021
 
+Input Maze Solution
 ![Input Maze Solution](https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/Images%20and%20Videos/Images/Input%20maze1%20and%20solution.png)
 
+Random Maze Solution
 ![Random Maze Solution](https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/Images%20and%20Videos/Images/Randomly%20generated%20maze%20and%20Solution.png)
 
 ## Abstract
@@ -12,6 +14,7 @@ Open Projects 2021
 <p align = "justify">Reinforcement learning in robotics has been a challenging domain in the field of AI for the past few years. The ability to equip a robot with a powerful enough tool to allow an autonomous discovery of an optimal behavior through trial-and-error interactions with its environment has paved the path to many deep research projects.<br></br>
 Our project inspires us to solve many problems, like Autonomous Mobile Robot Obstacle Prevention using Q-learning.</p>
 
+Image Processing
 ![Image Processing](https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/Images%20and%20Videos/Images/Input%20maze2_image%20processing.png)
 
 <!-- ## Mechanical Aspect of the Design -->
@@ -38,3 +41,49 @@ At the current state, our project has a few limitations :
 * The [`reduceMatrix()`](https://github.com/tushdon2/RL-based-Maze-Solver/blob/fbd11ce17a93b9e0d79abbe9c3acc61b46c69b3a/src/ImgPreprocess.py#L49), [`trim()`](https://github.com/tushdon2/RL-based-Maze-Solver/blob/fbd11ce17a93b9e0d79abbe9c3acc61b46c69b3a/src/ImgPreprocess.py#L137) and [`sharpen()`](https://github.com/tushdon2/RL-based-Maze-Solver/blob/fbd11ce17a93b9e0d79abbe9c3acc61b46c69b3a/src/ImgPreprocess.py#L193) functions also require manual passing of parameters.
 * The _**Image Processing**_ part of our project is not strong enough to process very low-resolution maze images. 
 * The simple reinforcement learning algorithm would collapse when dealing with complex mazes. 
+
+
+## Future Improvements
+In future, we plan to :
+* generate an animated maze solution. 
+* implement **_Multi-Objective target search_**, wherein the agent of Q-Learning must visit intermediate **_flag_** positions before going to the end of the maze.
+* extend our project to 3-D Mazes.
+
+## Team Members
+* [Apurba Prasad Padhy](https://github.com/apurba-pp)
+* [Chirag Arora](https://github.com/chirag-ar)
+* [Rishabh Dubey](https://github.com/RishabhDubey03)
+* [Tushar Sahu](https://github.com/tushdon2)
+* [Yash Bhinwal](https://github.com/yash-bhinwal)
+
+## Mentors
+* [Agrim Agrawal](https://github.com/Agrim01)
+* [Annu Shree](https://github.com/annushree21)
+* [Vansh Goyal](https://github.com/vanshgoyal)
+
+
+## References
+* Python :
+  * [Youtube/freeCodeCamp.org](https://www.youtube.com/watch?v=rfscVS0vtbw)
+  * [Programiz](https://www.programiz.com/python-programming)
+  * [W3Schools](https://www.w3schools.com/python/)
+* Graph Theory :
+  * [Progamiz](https://www.programiz.com/dsa/graph)
+  * [Youtube/freeCodeCamp.org](https://www.youtube.com/watch?v=09_LlHjoEiY)
+* Dijkstra Algorithm :
+  * [Programiz](https://www.programiz.com/dsa/dijkstra-algorithm)
+  * [Youtube/Abdul Bari](https://www.youtube.com/watch?v=XB4MIexjvY0)
+  * [Brilliant](https://brilliant.org/wiki/dijkstras-short-path-finder/)
+* Bellman Ford's Algorithm :
+  * [Programiz](https://www.programiz.com/dsa/bellman-ford-algorithm)
+  * [Youtube/Abdul Bari](https://www.youtube.com/watch?v=FtN3BYH2Zes)
+* Reinforcement Learning :
+  * [Youtube/DeepMind](https://www.youtube.com/playlist?list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)
+  * [samyzaf.com](https://www.samyzaf.com/ML/rl/qmaze.html)
+* Q-Learning :
+  * [Youtube/deeplizard](https://www.youtube.com/watch?v=qhRNvCVVJaA)
+  * [Wikipedia](https://en.m.wikipedia.org/wiki/Q-learning)
+* Matplotlib:
+  * [GeeksforGeeks](https://www.geeksforgeeks.org/matplotlib-pyplot-imshow-in-python/)
+* Image Processing of the Maze : 
+  * [stackoverflow](https://stackoverflow.com/questions/57610416/how-to-read-a-maze-from-an-image-and-convert-it-to-binary-values-in-python)
