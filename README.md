@@ -21,11 +21,19 @@ Our project inspires us to solve many problems, like Autonomous Mobile Robot Obs
 
 <!-- ## Electronics Aspect of the Design -->
 
+## Software Aspect of the Design
+* **Python** - It is an **interpreted high-level object-oriented** programming language designed by **Guido van Rossum**. It emphasizes code readability with significant use of indentation. It has tons of third-party open-source libraries (which can be installed using its own package manager **_pip_**) to assist all types of programs. 
+* **Jupyter Notebook** - It is a product developed under **_Project Jupyter_** (spun off from **_IPython_** in 2014 by **Fernando Perez**) and is used to create documents containing live code, equations, visualizations and narrative text. It is used in data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, etc.
+* **NumPy** - It is a Python library providing fundamental package for scientific computing. It is used for working with arrays in the domain of linear algebra, fourier transform, matrices, etc. Numpy arrays are 50x faster than Python lists.
+* **Matplotlib** - It is a Python library for creating static, animated, and interactive visualizations and plots and was introduced by **John D. Hunter** in 2002.
+* **Python Imaging Library (PIL)** - It is a Python library providing support for opening, manipulating, and saving many different image file formats. It supports Python version 1.5.2 to 2.7. A subsequent fork of the PIL repository named **_Pillow_** added Python 3.x support.
+
 ## Cost Structure
 | Software (Components) | Cost |
 |:---------------------:|:----:|
 | Python | Open-Source/None |
 | Jupyter Notebook | Open-Source/None |
+| NumPy | Open-Source/None |
 | Matplotlib | Open-Source/None |
 | PIL | Open-Source/None |
 
