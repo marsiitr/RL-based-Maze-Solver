@@ -2,12 +2,12 @@
 Open Projects 2021
 
 <p align = "center">
+<img src = "https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/Images%20and%20Videos/Images/Input%20maze1_animated%20solution.gif" alt = "Input Maze Animated Solution">
+<br>fig1 <i>Input Maze Animated Solution</i> <br></br>
 <img src = "https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/Images%20and%20Videos/Images/Input%20maze1%20and%20solution.png" alt = "Input Maze Solution">
-<br>fig1 <i>Input Maze Solution</i></p>
-
-<p align = "center">
+<br>fig2 <i>Input Maze Solution</i> <br></br>
 <img src = "https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/Images%20and%20Videos/Images/Randomly%20generated%20maze%20and%20Solution.png" alt = "Random Maze Solution">
-<br>fig2 <i>Random Maze Solution</i></p>
+<br>fig3 <i>Random Maze Solution</i></p>
 
 ## Abstract
 <p align = "justify">The aim of this project is to solve a given 2D maze (given as an image input) using RL (Q-Learning) algorithm. The program first processes the image input of the maze and converts it into a matrix. The Q-Learning algorithm then uses this matrix to generate a q-matrix, which is finally used to get the shortest path. The program can also generate random mazes and then solve it.</p>
@@ -18,7 +18,7 @@ Our project inspires us to solve many problems, like Autonomous Mobile Robot Obs
 
 <p align = "center">
 <img src = "https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/Images%20and%20Videos/Images/Input%20maze2_image%20processing.png" alt = "Image Processing">
-<br>fig3 <i>Image Processing</i></p>
+<br>fig4 <i>Image Processing</i></p>
 
 <!-- ## Mechanical Aspect of the Design -->
 
