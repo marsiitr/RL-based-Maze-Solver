@@ -25,12 +25,37 @@ Our project inspires us to solve many problems, like Autonomous Mobile Robot Obs
 <!-- ## Electronics Aspect of the Design -->
 
 ## Software Aspect of the Design
+### Tech Stack
 * <p align = "justify"><b>Python</b> - It is an <b>interpreted high-level object-oriented</b> programming language designed by <b>Guido van Rossum</b>. It emphasizes code readability with significant use of indentation. It has tons of third-party open-source libraries (which can be installed using its own package manager <b><i>pip</i></b>) to assist all types of programs.</p>
 * <p align = "justify"><b>Jupyter Notebook</b> - It is a product developed under <b><i>Project Jupyter</i></b> (spun off from <b><i>IPython</i></b> in 2014 by <b>Fernando Perez</b>) and is used to create documents containing live code, equations, visualizations and narrative text. It is used in data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, etc.</p>
 * <p align = "justify"><b>NumPy</b> - It is a Python library providing fundamental package for scientific computing. It is used for working with arrays in the domain of linear algebra, fourier transform, matrices, etc. Numpy arrays are 50x faster than Python lists.</p>
 * <p align = "justify"><b>Matplotlib</b> - It is a Python library for creating static, animated, and interactive visualizations and plots and was introduced by <b>John D. Hunter</b> in 2002.</p>
 * <p align = "justify"><b>Python Imaging Library (PIL)</b> - It is a Python library providing support for opening, manipulating, and saving many different image file formats. It supports Python version 1.5.2 to 2.7. A subsequent fork of the PIL repository named <b><i>Pillow</i></b> added Python 3.x support.</p>
 
+### Working
+* #### Terminologies
+  * <p align = "justify"><b>Episode</b> - In a given episode the Agent solves the maze by making some random moves (exploration) and some moves by looking up at the q-matrix (exploitation).</p>
+  * <p align = "justify"><b>Iteration</b> - Every move in an episode is called as an iteration.</p>
+  * <p align = "justify"><b>State</b> - Every coordinate point of the Maze can be defined as a unique state.</p>
+  * <p align = "justify"><b>Q-Matrix</b> - A Q-matrix is defined as a numpy matrix of size (no. of different moves available, i.e. 4) × (No. of states) with each entry as Zero defined initially.</p>
+  * <p align = "justify"><b>Bellman Equation</b> - It is used to update the Q-Matrix.</p>
+  <p align = "center">
+  <img src = "https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/Images%20and%20Videos/Images/Bellman%20Equation.jpg" alt = "Bellman Equation"><br>fig5 <i>Bellman Equation</i></p>
+
+* #### Image Processing 
+
+  <p align = "center">
+  <img src = "https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/Images%20and%20Videos/Images/Image%20Processing%20Workflow.jpeg" alt = "Image Processing Workflow"><br>fig6 <i>Image Processing Workflow</i></p>
+
+  [For detailed explanation click this link](https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/src/README%20ImgPreprocess.md)
+
+  [Code](https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/src/ImgPreprocess.py)
+* #### Maze Solving
+
+  <p align = "center">
+  <img src = "https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/Images%20and%20Videos/Images/Maze%20Solver%20Workflow.jpeg" alt = "Maze Solving Workflow"><br>fig7 <i>Maze Solving Workflow</i></p>  
+
+  [Code](https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/src/Code_4.0.ipynb)
 
 ## Cost Structure
 | Software (Components) | Cost |
