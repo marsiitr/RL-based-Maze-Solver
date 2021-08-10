@@ -47,15 +47,15 @@ Our project inspires us to solve many problems, like Autonomous Mobile Robot Obs
   <p align = "center">
   <img src = "https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/Images%20and%20Videos/Images/Image%20Processing%20Workflow.jpeg" alt = "Image Processing Workflow"><br>fig6 <i>Image Processing Workflow</i></p>
 
-  [For detailed explanation click this link](https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/src/README%20ImgPreprocess.md)
+  [Click Here for detailed explanation](https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/src/README%20ImgPreprocess.md)
 
-  [Code](https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/src/ImgPreprocess.py)
+  [Click here to access the Image Processing Code](https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/src/ImgPreprocess.py)
 * #### Maze Solving
 
   <p align = "center">
   <img src = "https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/Images%20and%20Videos/Images/Maze%20Solver%20Workflow.jpeg" alt = "Maze Solving Workflow"><br>fig7 <i>Maze Solving Workflow</i></p>  
 
-  [Code](https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/src/Code_4.0.ipynb)
+  [Click here to access the Maze Solving Code](https://github.com/apurba-pp/RL-based-Maze-Solver/blob/main/src/Maze_Solving_Code.ipynb)
 
 ## Cost Structure
 | Software (Components) | Cost |
