@@ -237,4 +237,5 @@ def detectOpenings(self):
             if count == 2 : return l
 ```
 
-#### 9. This [ImgPreprocess.py](https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/src/ImgPreprocess.py) file is then imported by the [Maze_Solving_Code.ipynb](https://github.com/apurba-pp/RL-based-Maze-Solver/blob/main/src/Maze_Solving_Code.ipynb).
+#### 9. This [ImgPreprocess.py](https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/src/ImgPreprocess.py) file is then imported by [Maze_Solving_Code.ipynb](https://github.com/tushdon2/RL-based-Maze-Solver/blob/main/src/Maze_Solving_Code.ipynb).
+```from ImgPreprocess import preprocess```
